@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+  <title>Teasting</title>
+</head>
+<style>
+  * {
+    background: #121212;
+  }
+
+  h1 {
+    color: aquamarine;
+    text-align: center;
+  }
+</style>
+
+<body>
+  <h1>Teasting</h1>
+  <script>
+    let product = {
+      company: 'Mango',
+      price: 784,
+      item_name: 'sirth',
+      'sale-price': '76%',
+      displyPrice: function () {
+        console.log(`Price of priduct is  ₹${this.price}`);
+      }
+    };
+    // distructing
+    let { company, item_name } = product;
+    console.log(company)
+    console.log(item_name)
+
+    // product.displyPrice();
+    // console.log("This Is Abhishek".toLowerCase());
+    // console.log("This Is Abhishek".replace('Is', 'Abhi'));
+
+    // let a = 5;
+    // let b = a;
+    // console.log(`a=${a}, n=${b}`);
+
+    // a = 8;
+    // console.log(`a=${a}, n=${b}`);
+
+    // let x = { num: 5 };
+    // let y = x;
+    // console.log(`x=${x.num}, y=${y.num}`);
+    // x.num = 43;
+    // console.log(`x=${x.num}, y=${y.num}`);
+
+    // let p = { pop: 'iujh' };
+    // let q = { pop: 'iujh' };
+    // console.log(p === q);
+  </script>
+</body>
+
+</html>
