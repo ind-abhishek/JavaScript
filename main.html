@@ -12,21 +12,60 @@
     color: aquamarine;
     text-align: center;
   }
+
+  button {
+    background: goldenrod;
+    padding: 5px 15px;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+  }
 </style>
 
 <body>
   <h1>Teasting</h1>
-
+  <button id="btn">Hello</button>
 </body>
 <script>
-  let num = 1;
-  while (num <= 19) {
-    console.log(num);
-    num++;
-  }
 
-  console.log(num);
+  // let runTwice = (num1, num2, func) => {
+  //   let result = [];
+  //   for (let i = 0; i < 2; i++) {
+  //     func(num1, num2);
+  //     result.push(func(num1, num2));
+  //   }
+  //   return result;
 
+  // };
+
+  // let multiply = (num1, num2) => {
+  //   return num1 * num2;
+  // };
+
+  // runTwice(2, 2, multiply);
+  // console.log(runTwice());
+
+  // let button = document.querySelector('#btn');
+
+  // button.addEventListener("click", setTimeout(grow, 4000));
+
+
+  // function grow() {
+  //   button.style.width = '200px';
+  //   button.style.hight = '500px';
+
+  // }
+  let arrElement = arr[3, 43, 5, 65, 6];
+  let addArray = (arrElement) => {
+    let sum = 0
+    for (i = 0; i < arrElement.lenght; i++) {
+      sum += arr[i] + arrElement.lenght;
+    }
+    return sum;
+  };
+
+  console.log(addArray(arr));
 </script>
 
 </html>
